@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Introduction */}
+      {/*Introduction*/}
       <div className="container py-5">
         <div className="row">
           <div className="col-md-6">
