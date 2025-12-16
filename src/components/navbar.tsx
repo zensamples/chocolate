@@ -9,7 +9,7 @@ export default function Navbar() {
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img
-            src="logo-charlotte.jpg"
+            src="/logo-charlotte.jpg"
             alt="Fun'ky Choc logo"
             width="75"
             height="75"
