@@ -20,11 +20,11 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/checkout@v5
       - run: npm ci
+      - name: Build app
+        run: npm run build
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
-      - name: Build app
-        run: npm run build
 
   deploy:
     runs-on: ubuntu-latest
