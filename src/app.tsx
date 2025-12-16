@@ -13,9 +13,9 @@ export function App() {
         <ErrorBoundary>
           <Navbar />
           <Router>
-            <Route path="/" component={Home} />
-            <Route path="/products" component={Products} />
-            <Route path="/social_network" component={Social} />
+            <Route path="" component={Home} />
+            <Route path="products" component={Products} />
+            <Route path="social_network" component={Social} />
             <Route component={NotFound} default />
           </Router>
         </ErrorBoundary>
