@@ -37,7 +37,7 @@ export default function Home() {
 
           <div className="col-md-6">
             <img
-              src="images/factory.webp"
+              src="/chocolatery-showcase/images/factory.webp"
               className="img-fluid rounded"
               alt="Chocolate workshop"
             />
@@ -71,7 +71,7 @@ export default function Home() {
             <p className="mb-3">
               Explore our full range of chocolate creations today.
             </p>
-            <button className="btn btn-light btn-lg">View all products</button>
+            <a href="/chocolatery-showcase/products" className="btn btn-light btn-lg">View all products</a>
           </div>
         </div>
       </div>
