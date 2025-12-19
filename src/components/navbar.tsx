@@ -32,9 +32,9 @@ export default function Navbar() {
             <li class="nav-item">
               <a
                 class={`nav-link${
-                  isActive("/chocolatery-showcase") ? " text-danger" : ""
+                  isActive("/") ? " text-danger" : ""
                 }`}
-                href="/chocolatery-showcase"
+                href="/"
               >
                 Home
               </a>
@@ -42,11 +42,11 @@ export default function Navbar() {
             <li class="nav-item">
               <a
                 class={`nav-link${
-                  isActive("/chocolatery-showcase/products")
+                  isActive("/products")
                     ? " text-danger"
                     : ""
                 }`}
-                href="/chocolatery-showcase/products"
+                href="/products"
               >
                 Produits
               </a>
@@ -54,11 +54,11 @@ export default function Navbar() {
             <li class="nav-item">
               <a
                 class={`nav-link${
-                  isActive("/chocolatery-showcase/social-network")
+                  isActive("/social-network")
                     ? " text-danger"
                     : ""
                 }`}
-                href="/chocolatery-showcase/social-network"
+                href="/social-network"
               >
                 Réseaux Sociaux
               </a>
