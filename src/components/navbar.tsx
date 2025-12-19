@@ -31,16 +31,22 @@ export default function Navbar() {
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a
-                class={`nav-link${isActive("/") ? " text-danger" : ""}`}
-                href="/"
+                class={`nav-link${
+                  isActive("/chocolatery-showcase") ? " text-danger" : ""
+                }`}
+                href="/chocolatery-showcase"
               >
                 Home
               </a>
             </li>
             <li class="nav-item">
               <a
-                class={`nav-link${isActive("/products") ? " text-danger" : ""}`}
-                href="/products"
+                class={`nav-link${
+                  isActive("/chocolatery-showcase/products")
+                    ? " text-danger"
+                    : ""
+                }`}
+                href="/chocolatery-showcase/products"
               >
                 Produits
               </a>
@@ -48,9 +54,11 @@ export default function Navbar() {
             <li class="nav-item">
               <a
                 class={`nav-link${
-                  isActive("/social-network") ? " text-danger" : ""
+                  isActive("/chocolatery-showcase/social-network")
+                    ? " text-danger"
+                    : ""
                 }`}
-                href="/social-network"
+                href="/chocolatery-showcase/social-network"
               >
                 Réseaux Sociaux
               </a>
