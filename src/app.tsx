@@ -13,6 +13,7 @@ export function App() {
         <ErrorBoundary>
           <Navbar />
           <Router>
+            <Route path="/chocolatery-showcase" component={Home} />
             <Route path="/" component={Home} />
             <Route path="/products" component={Products} />
             <Route path="/social-network" component={Social} />
