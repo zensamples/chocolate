@@ -16,10 +16,12 @@ export function App() {
             <Route path="/chocolatery-showcase" component={Home} />
             <Route path="/" component={Home} />
             <Route path="/chocolatery-showcase/products" component={Products} />
+            <Route path="/products" component={Products} />
             <Route
               path="/chocolatery-showcase/social-network"
               component={Social}
             />
+            <Route path="/social-network" component={Social} />
             <Route component={NotFound} default />
           </Router>
         </ErrorBoundary>
